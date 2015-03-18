@@ -11,4 +11,4 @@ Tab Commander is a Chrome extension which has the following features:
 - Manage hidden tabs. Hidden tabs can be removed or restored one at a time, a page at a time, or all at once.
 - Remove all data (hidden tabs, allowed / blocked domains, and settings)
 
-Hidden tabs, allowed / blocked domains, and settings are saved using the [chrome.storage.sync](https://developer.chrome.com/extensions/storage#using-sync) API, which means those preferences will automatically be synced to any Chrome browser you are logged in to, provided you have sync enabled.
+Hidden tabs, allowed / blocked domains, and settings are saved using the [chrome.storage.sync](https://developer.chrome.com/extensions/storage#using-sync) API, which means those preferences will automatically be synced to all Chrome browsers you are logged in to, provided you have sync enabled.

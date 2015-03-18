@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tab Commander",
-  "description": "Block access to domains and hide / restore tabs. Data is synced to any Chrome browser you are logged in to, provided you have sync enabled.",
+  "description": "Block access to domains and hide / restore tabs. Data is synced to all Chrome browsers you are logged in to (if sync is enabled).",
   "version": "1.0",
   "browser_action": {
     "default_icon": "src/img/icon.png",
