@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tab Commander: Hidden Tabs</title>
+    <style>
+        body {
+            margin: 13px 0 0;
+            min-width: 814px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../../bower_components/DataTables/media/css/jquery.dataTables.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/tabCommander.css"/>
+    <script src="../../bower_components/lodash/lodash.js"></script>
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/bPopup/jquery.bpopup.js"></script>
+    <script src="../../bower_components/DataTables/media/js/jquery.dataTables.js"></script>
+    <script src="../../bower_components/DataTables-Plugins/features/conditionalPagination/dataTables.conditionalPagination.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/hiddenTabs.js"></script>
+</head>
+<body>
+    <div id="titleWrap">
+        <img src="../img/icon.png" id="logo">
+        <div id="title">
+            <div class="titleWords tab">Tab </div>
+            <div class="titleWords commander">Commander</div>
+            <div class="titleWords colon">: </div>
+            <div class="titleWords hidden">Hidden </div>
+            <div class="titleWords tabs">Tabs</div>
+        </div>
+    </div>
+    <div class="btnContainer">
+        <a class="btn blue" id="removeAll">Remove All Tabs</a>
+        <a class="btn red" id="removeCurrent">Remove Current Page Tabs</a>
+        <a class="btn yellow" id="openAll">Open All Tabs</a>
+        <a class="btn blue" id="openCurrent">Open Current Page Tabs</a>
+        <a class="btn green" id="openSettings">Settings</a>
+    </div>
+    <table></table>
+    <div id="settings" class="rainbow_border">
+        <div class="checkboxWrap">
+            <div class="checkbox">
+                <input type="checkbox" id="removeTabs"/>
+                <label for="removeTabs"></label>
+            </div>
+            <div id="removeTabsLabel">Remove tabs from table when clicked</div>
+        </div>
+        <div class="btn red" id="closeSettings">Close</div>
+    </div>
+</body>
+</html>

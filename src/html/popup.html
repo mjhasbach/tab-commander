@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tab Commander: Popup</title>
+    <style>
+        html, body {
+            width: 274px;
+        }
+
+        body {
+            text-align: center;
+            margin: 8px 0 8px 0;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/tabCommander.css"/>
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/lodash/lodash.js"></script>
+    <script src="../../bower_components/async/lib/async.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/popup.js"></script>
+</head>
+<body>
+    <div id="popupButtons">
+        <div class="btn blue" id="blockOtherDomains">Only Allow Access to This Domain</div><br>
+        <div class="btn red" id="blockThisDomain">Disallow Access to This Domain</div><br>
+        <div class="btn yellow" id="hideThisTab">Hide This Tab</div><br>
+        <div class="btn green" id="hideOtherTabs">Hide All Other Tabs</div><br>
+        <div class="btn blue" id="hideCurrentDomain">Hide Tabs on This Domain</div><br>
+        <div class="btn red" id="hideOtherDomains">Hide Tabs Not on This Domain</div><br>
+        <div class="btn yellow" id="manageHiddenTabs">Manage Hidden Tabs</div><br>
+        <div class="btn green" id="removeAllData">Remove All Data</div>
+    </div>
+</body>
+</html>
