@@ -4,10 +4,10 @@
   "description": "Block access to domains and hide / restore tabs. Data is synced to all Chrome browsers you are logged in to (if sync is enabled).",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "src/img/icon.png",
+    "default_icon": "src/img/icon128.png",
     "default_popup": "src/html/popup.html"
   },
-  "icons": { "128": "src/img/icon.png" },
+  "icons": { "128": "src/img/icon128.png" },
   "background": {
     "scripts": [
       "bower_components/lodash/lodash.js",
