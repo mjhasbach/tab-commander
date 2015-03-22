@@ -19,7 +19,7 @@ $(function() {
                     data: storage.tabs.data,
                     columns: storage.tabs.columns,
                     autoWidth: false,
-                    conditionalPagination: {enable: true},
+                    conditionalPaging: true,
                     oLanguage: {
                         sInfo: 'Showing _START_ to _END_ of _TOTAL_ tabs',
                         sInfoEmpty: '',
